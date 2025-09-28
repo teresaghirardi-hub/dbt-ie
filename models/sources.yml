@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: my_database
+    schema: main  # Schema where the raw tables are located
+    tables:
+      - name: customers
+        description: "Raw customer data"
+      - name: orders
+        description: "Raw order data"
+      - name: products
+        description: "Raw product data"

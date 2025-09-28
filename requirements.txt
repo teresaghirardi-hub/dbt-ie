@@ -1,0 +1,7 @@
+dbt-core==1.8.0
+dbt-duckdb
+polars==0.18.2
+duckdb==0.8.1
+uv==0.8.22
+ipykernel
+numpy
