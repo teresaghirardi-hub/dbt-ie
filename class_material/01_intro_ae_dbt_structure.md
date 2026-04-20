@@ -55,7 +55,7 @@ You will build a **complete, production-style dbt project** on an ecommerce data
 - **Dataset**: 14 raw tables (orders, customers, products, shipments…) loaded from Parquet into DuckDB.
 - **Three-layer architecture**: `staging → intermediate → marts`.
 - **Production features** (added progressively): tests, documentation, packages, macros, incremental models, snapshots, contracts, CI/CD patterns.
-- **Workflow**: fork the course repo, work on your own fork, submit work via Pull Requests.
+- **Workflow**: fork the course repo, then work entirely inside **your fork** — feature branches, Pull Requests into your fork's `main`, no pushes to the instructor's repo.
 
 *By the end of the course you will have a portfolio-ready dbt project and be ready for the certification exam.*
 

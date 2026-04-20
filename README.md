@@ -74,14 +74,19 @@ We strongly recommend using **PowerShell** (not Command Prompt) for the commands
 
 The commands below are identical on Mac and Windows **unless otherwise noted**. Where commands differ, both versions are shown.
 
-### 1. Clone the Repository
+### 1. Fork and Clone the Repository
 
-Clone the course repository to your local machine:
+To work on this project and save your changes, you need your own copy of the repository.
 
-```bash
-git clone https://github.com/dgarhdez/dbt-ie.git
-cd dbt-ie
-```
+1. **Fork**: go to [`https://github.com/dgarhdez/dbt-ie`](https://github.com/dgarhdez/dbt-ie) and click **Fork** (top-right). This creates a copy under your GitHub account: `https://github.com/YOUR_USERNAME/dbt-ie`.
+2. **Clone your fork** locally (replace `YOUR_USERNAME`):
+
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/dbt-ie.git
+    cd dbt-ie
+    ```
+
+> Don't clone `dgarhdez/dbt-ie` directly — you won't be able to push your work to it.
 
 ### 2. Install the Project with `uv sync`
 

@@ -92,10 +92,10 @@ If everything is green, you are ready to build.
 
 ## Git Workflow: Forking & Cloning
 
-We use a standard **Pull Request** workflow.
+All your work lives inside **your own fork**. Nothing gets pushed back to the instructor's repo.
 
-1. **Fork**: create your own copy of the course repo on GitHub.
-2. **Clone** your fork locally:
+1. **Fork** `dgarhdez/dbt-ie` on GitHub — this creates `YOUR_USERNAME/dbt-ie`, which you own and can push to.
+2. **Clone your fork** locally:
    ```bash
    git clone https://github.com/YOUR_USERNAME/dbt-ie.git
    ```
@@ -103,9 +103,9 @@ We use a standard **Pull Request** workflow.
    ```bash
    git checkout -b feature/my-first-model
    ```
-4. **Commit & push**, then open a PR against your fork's `main`.
+4. **Commit, push, and open a PR** *inside your fork* (feature branch → your own `main`). Merge it yourself.
 
-*All course work is submitted through Pull Requests — this is the same workflow you will use in industry.*
+*Same PR-based workflow used in industry — just scoped to your fork.*
 
 ---
 
